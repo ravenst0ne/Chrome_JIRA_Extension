@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Getting Started Extension's Popup</title>
+    <style>
+      body {
+        overflow-x: hidden;
+        border: 0px;
+        padding: 0px;
+      }
+    </style>
+
+    <!--
+      - JavaScript and HTML must be in separate files: see our Content Security
+      - Policy documentation[1] for details and explanation.
+      -
+      - [1]: http://developer.chrome.com/extensions/contentSecurityPolicy.html
+     -->
+    
+  </head>
+  <body>
+    <select id="project">        
+        <option value="Proj1">Proj1</option>
+        <option value="Proj2">Proj2</option>
+        <option value="Proj3">Proj3</option>
+        <option value="Proj4">Proj4</option>
+    </select>
+    
+    <input id="ticket" type="text" name="ticket">
+    <button type="button" id="goto_jira">JIRA</button>
+
+    <script src="app.js"></script>
+  </body>
+</html>
+

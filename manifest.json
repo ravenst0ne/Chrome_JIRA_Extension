@@ -1,0 +1,10 @@
+  {
+    "name": "JIRA Simple ticket",
+    "version": "1.0",
+    "description": "Opens directly the issue from the given ticket number",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_title": "That's the tool tip",
+        "default_popup": "popup.html"        
+    }
+  }
